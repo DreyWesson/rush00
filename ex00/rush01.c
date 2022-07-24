@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   rush01.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sambadou <sambadou@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: doduwole <doduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/24 19:40:43 by sambadou          #+#    #+#             */
-/*   Updated: 2022/07/24 19:41:11 by sambadou         ###   ########.fr       */
+/*   Updated: 2022/07/24 19:44:57 by doduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -28,7 +28,7 @@ int	first_row(int x, int y)
 	else
 	{
 		ft_putchar('/');
-		while (i++ < x - 2 )
+		while (i++ < x - 2)
 		{
 			ft_putchar('*');
 		}
@@ -86,7 +86,7 @@ int	last_row(int x, int y)
 	}
 	if (x > 1)
 		ft_putchar('/');
-		ft_putchar('\n');
+	ft_putchar('\n');
 	return (0);
 }
 

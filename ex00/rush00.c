@@ -3,13 +3,12 @@
 /*                                                        :::      ::::::::   */
 /*   rush00.c                                           :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: sambadou <sambadou@student.42wolfsburg.    +#+  +:+       +#+        */
+/*   By: doduwole <doduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/24 19:40:36 by sambadou          #+#    #+#             */
-/*   Updated: 2022/07/24 19:41:12 by sambadou         ###   ########.fr       */
+/*   Updated: 2022/07/24 19:44:02 by doduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
-
 
 #include <unistd.h>
 
@@ -29,7 +28,7 @@ int	first_row(int x, int y)
 	else
 	{
 		ft_putchar('o');
-		while (i++ < x - 2 )
+		while (i++ < x - 2)
 		{
 			ft_putchar('-');
 		}
@@ -86,7 +85,7 @@ int	last_row(int x, int y)
 	}
 	if (x > 1)
 		ft_putchar('o');
-		ft_putchar('\n');
+	ft_putchar('\n');
 	return (0);
 }
 
