@@ -6,7 +6,7 @@
 /*   By: doduwole <doduwole@student.42wolfsburg.    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2022/07/24 19:40:58 by sambadou          #+#    #+#             */
-/*   Updated: 2022/07/24 19:48:50 by doduwole         ###   ########.fr       */
+/*   Updated: 2022/07/24 20:46:38 by doduwole         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -99,5 +99,11 @@ int	rush(int x, int y)
 	{
 		first_and_last_row(x, y);
 	}
+	return (0);
+}
+
+int main(void)
+{
+	rush(5, 3);
 	return (0);
 }
